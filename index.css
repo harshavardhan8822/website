@@ -35,6 +35,9 @@ nav div ul{
     color:blue;
     font-weight: bold;
 }
+ion-icon{
+    color:blue;
+}
 nav div ul li a{
     font-weight: bold;
     color:blue;
