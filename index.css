@@ -108,7 +108,7 @@ body{
     font-weight: bold;
     padding:1rem;
     border:solid blue 2px;
-    margin-bottom: 0.5rem;
+    margin:0.5rem 0;
 }
 .python button a{
     font-weight: bold;
