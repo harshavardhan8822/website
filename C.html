@@ -3,28 +3,27 @@
     <head>
         <title>C learntocode</title>
         <style>
-            .p1{
-                font-family: arial;
-                font-weight: bold;
-                text-align: center;
-            }
-            .p2{
-                text-align: left;
-                margin-left:10px;
-            }
-            .helloworld{
-                text-align: left;
-                margin-left:20px;
-            }
             .pdf{
                 background:black;
                 display: inline-block;
                 color:white;
                 padding:1rem;
                 border-radius: 0.5rem;
+                position:absolute;
+                left:25%;
+                right:25%;
+                vertical-align: middle;
+            }
+            .python-logo{
+                width:10%;
+                display:inline-block;
+                vertical-align: middle;
             }
             .pdf p{
                 font-family: arial;
+                text-align: center;
+                font-size: 2rem;
+                display: inline-block;
             }
             .pdf button{
                 display: inline-block;
@@ -33,24 +32,29 @@
                 float:right;
             }
             button a{
+                padding:0.5rem;
+                font-size: 1.5rem;
+                font-weight: 750;
                 color:black;
                 text-decoration: none;
+            }
+            @media screen and (max-width:800px){
+                .python-logo{
+                    display: inline-block;
+                    width:50px;
+                }
+                .pdf button{
+                    margin-left:50%;
+                    transform: translate(-50%);
+                    float: none;
+                    
+                }
             }
         </style>
     </head>
     <body>
-        <p class="p1"><strong>Programming</strong> by learntocode.tk</p>
-        <p class="p2">C program to print a sentence
-            <code class="helloworld">
-                <pre>
-                #include&#60;stdio.h&#62;
-                int main(){
-                    printf("learntocode.tk");
-                }
-            </pre>
-            </code>
-        </p>
         <div class="pdf">
+            <img class="python-logo" src="images/python.png">
             <p>Python complete basics from scratch</p>
             <button><a href="images/PYTHON PROGRAMMING.pdf" target="_blank">DOWNLOAD</a></button>
         </div>
