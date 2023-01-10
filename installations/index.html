@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnToCode-Installation Guide</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+            font-family: arial;
+            text-decoration: none;
+        }
+        header{
+            width:100%;
+            background:whitesmoke;
+        }
+        header div{
+            width:100%;
+            padding:1rem 0;
+            text-align: center;
+        }
+        div h3{
+            font-size:2.5rem;
+            color:blue;
+        }
+        main{
+            width:100%;
+            background:blue;
+        }
+        main div{
+            width:80%;
+            margin:0 10%;
+            padding:2.5% 0;
+        }
+        main div p{
+            text-align:center;
+            color:white;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        main div video{
+            width:80%;
+            margin:0 10%;
+            transition: all ease 0.5s;
+        }
+        video:hover{
+            width:100%;
+            margin:0%;
+            box-shadow: 0 0 25px white;
+            margin-top:15px; 
+        }
+        main div div{
+            float:left;
+        }
+        main div div p{
+            text-align: left;
+            line-height: 2rem;
+        }
+        main div div button{
+            padding:1rem 0;
+            border:none;
+            border-radius: 5px;
+            margin:0.75rem 0.25rem;
+        }
+        button a{
+            padding:1.5rem;
+            color:blue;
+            font-weight: bold;
+            font-size:0.8rem;
+        }
+        button:hover{
+            background:blue;
+            border:solid 1.5px white;
+            color:white;
+        }
+        button a:hover{
+            color:white;
+        }
+        .ros{
+            background:white;
+            color:blue;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div><h3>Installation guide</h3></div>
+    </header>
+    <main>
+        <div>
+            <p>VM Ware and Ubuntu Installation</p>
+            <div>
+                <p>The entire process requires an active internet connection or wifi.</p>
+                <button><a href="https://www.vmware.com/in/products/workstation-player/workstation-player-evaluation.html" target="_blank">Download VM WARE <strong>  > </strong></a></button>
+                <button><a href="http://old-releases.ubuntu.com/releases/20.04/ubuntu-20.04-desktop-amd64.iso">Download UBUNTU 20.04 <strong> > </strong></a></button>
+                <p>
+                *note: If you are doing with mobile data
+                then connect your mobile with your laptop/pc using USB cable
+                and turn on <strong>USB TETHERING</strong>
+                </p>    
+            </div>
+            <video src="vmware&ubuntu.mp4" controls controlslist="nodownload"></video>
+        </div>
+        <div class="ros">
+            ROS installation guide will be updated soon.
+        </div>
+    </main>
+</body>
+</html>
