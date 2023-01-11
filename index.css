@@ -129,6 +129,19 @@ body{
 .installation p a{
     color:blue;
 }
+footer{
+    position:fixed;
+    bottom:0.5rem;
+    right:0.25rem;
+    background: none;
+}
+footer div, footer div img{
+    background: none;
+}
+footer div img{
+    border:solid 2px blue;
+    border-radius: 25%;
+}
 @media screen and (max-width:800px){
     .hero-section{
         grid-template-columns: 1fr;
