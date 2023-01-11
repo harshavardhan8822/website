@@ -126,6 +126,9 @@ body{
     color:white;
     padding:2rem;
 }
+.installation p a{
+    color:blue;
+}
 @media screen and (max-width:800px){
     .hero-section{
         grid-template-columns: 1fr;
